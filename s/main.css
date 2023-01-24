@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-*, a, p, span, b, i, h1, h2, h3, h4, h5, h6, srong, em, .display-1, .display-2, .display-4, .display-5, .display-7, .text-black, .link, .nav-link, .overlay { font-family: 'League Gothic', sans-serif; }
+*, a, p, span, b, i, h1, h2, h3, h4, h5, h6, strong, em, .display-1, .display-2, .display-4, .display-5, .display-7, .text-black, .link, .nav-link, .overlay { font-family: 'League Gothic', sans-serif; }
 a, .link, .organge { color: #858585; }
 a:hover, .link:hover, .orange:hover { color: #F7931E; } /* orange */
 h1 { font-family: 'Titillium Web', sans-serif;}
@@ -10,3 +10,7 @@ h1 { font-family: 'Titillium Web', sans-serif;}
   }
   section { margin-bottom: 35px; }
   .nav-link { font-size: 1.6rem; }
+  #projects { background-color: #888888;}
+  #projects ul li a { color: black; }
+  #projects ul li a.active { color: #F7931E; }
+  .invisible, .d-block.invisible {visibility: hidden !important; display: none;}
